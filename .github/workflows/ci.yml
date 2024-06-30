@@ -3,7 +3,7 @@ name: Python CI
 on:
   push:
     branches: [main] # Change "main" if main branch has different name
-  pull_requests:
+  pull_request:
     branches: [main]
 
 jobs:
